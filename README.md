@@ -1,1 +1,1 @@
-https://darya-startsava.github.io/rsschool-cv
+[See CV](https://darya-startsava.github.io/CV)

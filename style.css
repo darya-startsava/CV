@@ -52,9 +52,11 @@
     font-size: 0.7em;
   }
 
-  h3 {
+  h3, .projects-title {
     text-align: center;
   }
+
+  
 }
 
 html {
@@ -147,7 +149,7 @@ pre {
   width: 100%;
 }
 
-h4,
+h3, .projects-title,
 .project-description {
   text-align: left;
   margin: 2px 0 0 0;
