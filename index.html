@@ -8,217 +8,203 @@
   <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/vs.min.css">
-  <link rel="icon" type="image/svg+xml" href="./assets/cv.svg">
+  <link rel="icon" type="image/svg+xml" href="./assets/svg/cv.svg">
 </head>
 
 <body>
   <div class="content">
     <header class="header">
-      <div>
-        <img src="assets/photo.jpg" alt="My photo" class="photo">
-      </div>
       <div class="title-text">
-        <h1>DARYA STARTSAVA</h1>
-        <h2>Front-End Developer</h2>
-        <p>Location: Krakow, Poland</p>
-        <p>Essential note: I am eligible to work in Poland</p>
+        <h1>Darya Startsava</h1>
+        <h2 class="highlighted">Junior Frontend Developer</h2>
         <section>
-          <h3>Contact</h3>
-          <ul>
-            <li>Phone: <a href="tel: 575-864-163">575-864-163</a></li>
-            <li>Email: <a href="mailto:daryastartsava@gmail.com">daryastartsava@gmail.com</a></li>
+          <ul class="contacts-wrapper">
+            <li><img src="./assets/svg/phone.svg"> <a href="tel: 575-864-163">575-864-163</a></li>
+            <li><img src="./assets/svg/email.svg"> <a
+                href="mailto:daryastartsava@gmail.com">daryastartsava@gmail.com</a></li>
+            <li><img src="./assets/svg/website.svg"> <a
+                href="https://github.com/darya-startsava">https://github.com/darya-startsava</a></li>
+            <li><img src="./assets/svg/location.svg"> <span>Krakow, Poland</span></li>
+
           </ul>
         </section>
+      </div>
+      <div>
+        <img src="assets/photo.jpg" alt="My photo" class="photo">
       </div>
     </header>
     <main class="main-part">
       <aside class="aside">
         <section>
-          <h3>About me:</h3>
+          <h3 class="sub-title">Summary</h3>
           <p>
             JS frontend developer with teamwork experience specializing in React. Proficient in functional and OOP
             paradigms, have solid understanding of design principles and patterns.
           </p>
         </section>
         <section>
-          <h3>Education:</h3>
-          <p>
-            Rolling Scopes School<br>
-            Course "React"<br>
-            2022<br>
-            <a href="https://app.rs.school/certificate/tqtxhetz" target="_blank">See the certificate</a>
-          </p>
-          <p>
-            Rolling Scopes School<br>
-            Course "JavaScript/Front-end"<br>
-            2021<br>
-            <a href="https://app.rs.school/certificate/38cha3tr" target="_blank">See the certificate</a>
-          </p>
-          <p>
-            Rolling Scopes School<br>
-            Course "JS/FE Pre-School"<br>
-            2021<br>
-            <a href="https://app.rs.school/certificate/q57r6mis" target="_blank">See the certificate</a>
-          </p>
-          <p>
-            Belarusian State University<br>
-            Faculty of Chemistry<br>
-            2005-2010
-          </p>
-        </section>
-        <section>
-          <h3>Hard skills:</h3>
-          <ul>
+          <h3 class="sub-title">Skills</h3>
+          <ul class="skills-wrapper">
             <li>JavaScript</li>
             <li>TypeScript</li>
             <li>React</li>
-            <li>Redux Toolkit</li>
+            <li>Redux/Redux Toolkit</li>
+            <li>GraphQL</li>
+            <li>React Testing Library</li>
+            <li>Jest</li>
+            <li>React Router</li>
+            <li>Material UI</li>
+            <li>Formik</li>
             <li>Git</li>
             <li>Webpack</li>
             <li>HTML</li>
-            <li>CSS</li>
-            <li>Sass</li>
+            <li>CSS/Sass</li>
             <li>Bootstrap</li>
-            <li>Material UI</li>
-            <li>Jest</li>
-            <li>React Testing Library</li>
+            <li>GitHub Actions</li>
           </ul>
-          <h3>Familiar with:</h3>
-          <ul>
+          <h3 class="skills-sub-title">Familiar with:</h3>
+          <ul class="skills-wrapper">
+            <li>Enzyme</li>
+            <li>Storybook</li>
             <li>Node.js</li>
             <li>Figma</li>
           </ul>
         </section>
         <section>
-          <h3>Soft skills:</h3>
-          <p>I am a responsible, motivated person with good problem solving skills. I am a good team player willing to
-            help and contribute as required. Capable of self-learning and open to new technologies.
-          </p>
-        </section>
-        <section>
-          <h3>Languages:</h3>
-          <ul>
-            <li>Russian: native</li>
-            <li>English: B1</li>
-            <li>Polish: A2</li>
-          </ul>
-        </section>
-        <section>
-          <h3>Ready to work from:</h3>
-          <p>16.08.2022</p>
-          <p>Ready to work full time</p>
-        </section>
-        <section>
-          <h3>Mentor's feedback:</h3>
-          <p>Darya is a very motivated, mature and open-minded person who clearly understands her goals and moves
-            towards them step by step. She is a good team player who regularly demonstrated her willingness to help out
-            and contribute as required. She has good theoretical knowledge in Core JS (no major gaps were identified
-            during the interview) and relevant hands-on experience – she demonstrated confidence solving the proposed
-            practical tasks. I would also admit her mature approach to learning: she prefers official documentation and
-            books over developers posts and stackoverflow. Darya made a pretty good impression and I would recommend her
-            for hire.</p> <a href="https://app.rs.school/cv/24278ff2-8614-4de7-be81-d7510d87c405" target="_blank">See
-            source</a>
+          <h3 class="sub-title">Projects</h3>
+          <div class="projects">
+            <h3 class="project-name">Online banking - training project in AndersenLab</h3>
+            <ul class="project-description">
+              <li><b>About:</b> The application with all the features of commercial online banking. Among them: 2-step
+                authentication, the ability to make transfers, order a new card.</li>
+              <li><b>Team size:</b> Project Manager, Business Analyst, Designer, 5 React developers, React Tech Lead, 3
+                Java developers, 2 QA, 2AQA.</li>
+              <li><b>Participation</b>: implemented transfer logic with additional confirmation logic, presented the
+                results of teamwork on a demo, took part in a daily meetings with the project manager and meetings of
+                the frontend team, collaboration with the backend team, conducted code reviews on a daily basis,
+                created, evaluated and solved tasks with Jira.</li>
+              <li><b>Technologies:</b> JavaScript, TypeScript, React, Redux, Material UI, Formik, React Router, React
+                Testing Library, Jest, Enzyme, Husky, Storybook, Reselect, Webpack, ESLint, Prettier, Scss.</li>
+            </ul>
 
+            <h3 class="project-name">Online store</h3>
+            <a class="project-link" href="https://github.com/darya-startsava/online-shop-app" target="_blank"><img
+                src="./assets/svg/website-black.svg">
+              https://github.com/darya-startsava/online-shop-app
+            </a>
+            <ul class="project-description">
+              <li><b>About:</b> The application for an online store with the ability to sort products, open a page
+                with a description of an individual product, add products to the cart, delete them, change the
+                quantity, select attributes, change currency.</li>
+              <li><b>Technologies:</b> JavaScript, React, Redux, Redux Thunk, GraphQL, React Router, Sass, Webpack,
+                ESLint, Prettier.</li>
+            </ul>
+
+            <h3 class="project-name">Kanban desk - collaborative project</h3>
+            <a class="project-link" href="https://github.com/darya-startsava/project-management-app/tree/develop"
+              target="_blank"><img src="./assets/svg/website-black.svg">
+              https://github.com/darya-startsava/project-management-app/tree/develop
+            </a>
+            <ul class="project-description">
+              <li><b>About:</b> Kanban desk is a project management system. It is very useful for allocating,
+                prioritizing and completing tasks when working in a team. You can create and delete boards, create,
+                delete, move and prioritize tasks, assign a task to a team member.</li>
+              <li><b>Team size:</b> 3 developers.</li>
+              <li><b>Participation</b>: implemented authorization logic, implemented drag-and-drop tasks inside and
+                between columns, introduced Redux Toolkit Query to the project, conducted code reviews on a daily
+                basis.</li>
+              <li><b>Technologies:</b> JavaScript, TypeScript, React, Redux Toolkit, React Beautiful DnD,
+                Material UI, React Router, React i18next, Webpack, ESLint, Prettier, Scss.</li>
+            </ul>
+
+            <h3 class="project-name">RSLang - collaborative project</h3>
+            <a class="project-link" href="https://github.com/darya-startsava/rslang/tree/develop" target="_blank"><img
+                src="./assets/svg/website-black.svg"> https://github.com/darya-startsava/rslang/tree/develop
+            </a>
+            <ul class="project-description">
+              <li><b>About:</b> RSLang is an application for self-study English. It contains a
+                dictionary of 3600 words with the ability to mark learned and difficult words and 2 games for learning
+                with different logic.</li>
+              <li><b>Team size:</b> 2 developers.</li>
+              <li><b>Participation:</b>
+                designed and developed architecture оf the project, implemented routing with Navigo, implemented UI
+                and logic "Sprint" - game to learn new words, implemented UI and logic pages with words to learn.
+              </li>
+              <li><b>Technologies:</b> JavaScript, TypeScript, Webpack, Bootstrap, Navigo, Lodash template, ESLint,
+                Prettier, Scss.</li>
+            </ul>
+
+            <h3 class="project-name">All movies</h3>
+            <a class="project-link" href="https://github.com/darya-startsava/REACT2022Q1/tree/react-custom-app-state"
+              target="_blank"><img src="./assets/svg/website-black.svg">
+              https://github.com/darya-startsava/REACT2022Q1/tree/react-custom-app-state
+            </a>
+            <ul class="project-description">
+              <li><b>About:</b> The application allows you to search for films in third-party sources and create your
+                own file of actors.</li>
+              <li><b>Technologies:</b> JavaScript, TypeScript, React, Jest, React Testing Library, React Hook Form,
+                Husky, GitHub Actions, Webpack, ESLint, Prettier.</li>
+            </ul>
+          </div>
         </section>
+
       </aside>
       <div class="main-right">
         <section>
-          <h2 class="projects-title">Past projects:</h2>
-          <div class="projects">
-            <div class="project">
-              <h3>Kanban desk - collaborative project</h3>
-              <a href="https://github.com/darya-startsava/project-management-app/tree/develop"
-                target="_blank">https://github.com/darya-startsava/project-management-app/tree/develop
-              </a>
-              <a href="https://tarasiukdima.github.io/project-management-app/#/" target="_blank">
-                <img src="assets/project-kanban.jpg" alt="Kanban" class="photo-project">
-              </a>
-              <p class="project-description">
-                <b>About:</b> Kanban desk is a project management system. It is very useful for allocating, prioritizing
-                and
-                completing
-                tasks when working in a team. You can create and delete boards, create, delete, move and prioritize
-                tasks, assign a task to a team member.</br>
-                <b>Team size:</b> 3 developers.</br>
-                <b>Participation:</b>
-              <ul class="participation">
-                <li>implemented authorization logic;</li>
-                <li>implemented drag-and-drop tasks inside and between columns;</li>
-                <li>introduced Redux Toolkit Query to the project; </li>
-                <li>conducted code reviews on a daily basis; </li>
-              </ul>
-              <b>Technologies:</b> JavaScript, TypeScript, React, Redux Toolkit, React Beautiful DnD,
-              Material UI, React Router, React i18next, Webpack, ESLint, Prettier, Scss.
-              </p>
-            </div>
-            <div class="project">
-              <h3>RSLang - collaborative project</h3>
-              <a href="https://github.com/darya-startsava/rslang/tree/develop"
-                target="_blank">https://github.com/darya-startsava/rslang/tree/develop
-              </a>
-              <a href="https://darya-startsava.github.io/rslang/" target="_blank">
-                <img src="assets/project-rslang.jpg" alt="RsLang" class="photo-project">
-              </a>
-              <p class="project-description">
-                <b>About:</b> RSLang is an application for self-study English. It contains a
-                dictionary of 3600 words with the ability to mark learned and difficult words and 2 games for learning
-                with different logic.</br>
-                <b>Team size:</b> 2 developers.</br>
-                <b>Participation:</b>
-              <ul class="participation">
-                <li>designed and developed architecture оf the project;</li>
-                <li>implemented routing with Navigo;</li>
-                <li>implemented UI and logic "Sprint" - game to learn new words;</li>
-                <li>implemented UI and logic pages with words to learn;</li>
-
-              </ul>
-              <b>Technologies:</b> JavaScript, TypeScript, Webpack, Bootstrap, Navigo, Lodash template, ESLint,
-              Prettier, Scss.
-              </p>
-            </div>
-            <div class="project">
-
-              <h3>All movies</h3>
-              <a href="https://github.com/darya-startsava/REACT2022Q1/tree/react-hooks"
-                target="_blank">https://github.com/darya-startsava/REACT2022Q1/tree/react-hooks
-              </a>
-              <a href="https://darya-startsava.github.io/REACT2022Q1/react-hooks/" target="_blank">
-                <img src="assets/project-react-task.jpg" alt="All movies" class="photo-project">
-              </a>
-              <p class="project-description">
-                <b>About:</b> The application allows you to search for films in third-party sources and create your own
-                file of actors.</br>
-                <b>Technologies:</b> JavaScript, TypeScript, React, Jest, React Testing Library, React Hook Form, Husky,
-                Webpack, ESLint,
-                Prettier.
-              </p>
-            </div>
-            <div class="project">
-
-              <h3>Christmas tree</h3>
-              <a href="https://github.com/darya-startsava/JSFE2021Q3/tree/christmas-task-part2" target="_blank">
-                https://github.com/darya-startsava/JSFE2021Q3/tree/christmas-task-part2
-              </a>
-              <a href="https://darya-startsava.github.io/JSFE2021Q3/christmas-tree/" target="_blank">
-                <img src="assets/project-christmas-tree.jpg" alt="Christmas tree" class="photo-project">
-              </a>
-              <p class="project-description">
-                <b>About:</b> Get yourself in the Christmas spirit. You can choose New Year's toys, decorate the
-                Christmas tree with New Year's music.</br>
-                <b>Technologies:</b> JavaScript, TypeScript, Webpack, ESLint,
-                Prettier, Scss, Lodash template, NoUiSlider, Drag-and-drop.
-              </p>
-            </div>
-          </div>
+          <h3 class="sub-title">Experience</h3>
+          <p class="time-period"><img src="./assets/svg/calendar.svg"> 2022 - 2023</p>
+          <h3 class="company-name highlighted">AndersenLab</h3>
+          <p class="job-position">Trainee</p>
+          <p class="work-description">Was part of a team that was working on the online banking application. Find
+            details below
+            in projects section.</p>
+        </section>
+        <section>
+          <h3 class="sub-title">Education</h3>
+          <p class="time-period"><img src="./assets/svg/calendar.svg"> 2005 - 2010</p>
+          <h3 class="company-name highlighted">Belarusian State University</h3>
+          <p class="job-position">Faculty of Chemistry</p>
+        </section>
+        <section>
+          <h3 class="sub-title">Certification</h3>
+          <h3 class="company-name highlighted">Rolling Scopes School Course "React"</h3>
+          <a href="https://app.rs.school/certificate/tqtxhetz"
+            target="_blank">https://app.rs.school/certificate/tqtxhetz</a>
+          <h3 class="company-name highlighted">Rolling Scopes School Course "JavaScript/Front-end"</h3>
+          <a href="https://app.rs.school/certificate/38cha3tr"
+            target="_blank">https://app.rs.school/certificate/38cha3tr</a>
+        </section>
+        <section>
+          <h3 class="sub-title">Languages</h3>
+          <ul>
+            <li>English: <b>B1</b></li>
+            <li>Polish: <b>B1</b></li>
+            <li>Belarusian: <b>B1</b></li>
+            <li>Russian: <b>native</b></li>
+          </ul>
+        </section>
+        <section>
+          <h3 class="sub-title">Achievements</h3>
+          <h3>Rolling Scopes School Mentor's Feedback:</h3>
+          <p>Darya is a very motivated, mature and open-minded person who clearly understands her goals and moves
+            towards them step by step. She is a good team player who regularly demonstrated her willingness to help
+            out and contribute as required. She has good theoretical knowledge in Core JS (no major gaps were identified
+            during the interview) and relevant hands-on experience – she demonstrated confidence solving the proposed
+            practical tasks. I would also admit her mature approach to learning: she prefers official documentation
+            and books over developers posts and stackoverflow. Darya made a pretty good impression and I would recommend
+            her for hire.</p>
+        </section>
+        <section>
+          <h3 class="sub-title">Soft skills</h3>
+          <h4 class="soft-skills-sub-title highlighted">Problem Solving Skills</h4>
+          <p class="soft-skills-item">I am a responsible, motivated person with good problem solving skills.</p>
+          <h4 class="soft-skills-sub-title highlighted">Team Player</h4>
+          <p class="soft-skills-item">I am a good team player willing to help and contribute as required.</p>
+          <h4 class="soft-skills-sub-title highlighted">Open-minded</h4>
+          <p class="soft-skills-item">Capable of self-learning and open to new technologies.</p>
         </section>
       </div>
     </main>
-    <footer class="footer">
-      <p>
-        GitHub: <a href="https://github.com/darya-startsava">@darya-startsava</a>.
-        The resume was created in <time datetime="2022">2022</time>.
-      </p>
-    </footer>
   </div>
 </body>
 
