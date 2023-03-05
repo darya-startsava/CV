@@ -57,7 +57,11 @@ h1 {
 }
 
 .title-text {
-  width: 600px;
+  width: 745px;
+}
+
+.aside {
+  padding: 0 10px;
 }
 
 .aside {
@@ -76,7 +80,7 @@ li {
 
 .contacts-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   font-size: 14px;
 }
