@@ -139,8 +139,9 @@ pre {
 }
 
 .skills-sub-title {
-  margin:0;
+  margin: 0;
 }
+
 .time-period,
 .job-position {
   margin: 5px 0;
@@ -175,4 +176,9 @@ pre {
 
 .highlighted {
   color: #008cff;
+}
+
+.cv-link {
+  font-size: 24px;
+  font-weight: bold;
 }
