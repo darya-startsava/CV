@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 html {
   font-family: Roboto, sans-serif;
   color: #14213d;
@@ -175,4 +176,9 @@ pre {
 
 .highlighted {
   color: #008cff;
+}
+
+.cv-link {
+  font-size: 14px;
+  font-weight: bold;
 }
